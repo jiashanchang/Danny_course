@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="odd-or-even-number.js"></script>
+    <script src="max-of-two-numbers.js"></script>
+    <script src="multiplication-table.js"></script>
+    <script src="triangle.js"></script>
+    <script src="reverse-triangle.js"></script>
+    <script src="prime-number.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript基本運用</title>
+  </head>
+  <body>
+    <div>
+      <p>第一題：判斷奇數或偶數</p>
+      <input type="text" placeholder="請輸入任意整數" id="oddOrEvenInput" />
+      <button onclick="check();">點我判斷</button>
+      <p>此數為：</p>
+      <div id="oddOrEvenNumber"></div>
+    </div>
+    <br /><br />
+
+    <p>第二題：比數字大小</p>
+    <input type="text" placeholder="請輸入任意數字" id="firstNumberInput" />
+    <input type="text" placeholder="請輸入另任意數字" id="secondNumberInput" />
+    <button onclick="compare();">點我判斷</button>
+    <p>最大值為：</p>
+    <div id="maxNumber"></div>
+    <br /><br />
+
+    <p>第三題：九九乘法表</p>
+    <button onclick="multiply();">取得九九乘法表</button>
+    <p id="table"></p>
+    <br /><br />
+
+    <p>第四題：三角形</p>
+    <input type="text" placeholder="請輸入一個正整數" id="positiveInteger" />
+    <button onclick="triangle();">製作三角形</button>
+    <p id="triangleStarNumber"></p>
+    <br /><br />
+
+    <p>第五題：反轉三角形</p>
+    <input
+      type="text"
+      placeholder="請輸入一個正整數"
+      id="reversePositiveInteger"
+    />
+    <button onclick="reverseTriangle();">製作反轉三角形</button>
+    <p id="reverseTriangleStarNumber"></p>
+    <br /><br />
+
+    <p>第六題：質數</p>
+    <input type="text" placeholder="請輸入一個數" id="numberInput" />
+    <button onclick="primeNumber();">取得區間內質數</button>
+    <p id="checkPrimeNumber"></p>
+    <br /><br />
+  </body>
+</html>

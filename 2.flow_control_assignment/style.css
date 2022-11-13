@@ -1,0 +1,16 @@
+body{
+    margin: 50px;
+}
+
+p{
+    font-weight: bolder;
+}
+
+#oddOrEvenNumber, #maxNumber ,#table ,#checkPrimeNumber{
+    font-weight: bolder;
+    color: blue;
+}
+
+input{
+    font-size: 18px;
+}
