@@ -1,0 +1,88 @@
+body {
+  margin: 0px; /*緊貼頂部(上下左右)，沒有空隙*/
+}
+
+.wrapper {
+  width: 900px;
+  margin: auto;
+  color: rgb(209, 43, 131);
+}
+
+.content {
+  background: hsl(51, 93%, 65%);
+  line-height: 1em;
+  color: rgb(209, 43, 131);
+  padding: 30px;
+  display: grid;
+  grid-template-areas: "bottom bottom bottom bottom";
+}
+
+.type{
+  border-bottom: solid #65e7f3 5px;
+}
+
+.line{
+  border-bottom: solid #65e7f3 5px;
+}
+
+.size{
+  border-bottom: solid #65e7f3 5px;
+  text-align: center;
+}
+
+.temp{
+  margin-top: 40px;
+  font-size: 25px;
+
+}
+
+.tall_amount{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.grande_amount{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.bottom{
+  height: 200px;
+  width: 100%;
+  background-color: rgb(209, 43, 131);
+  grid-area: bottom;
+  justify-content: center; 
+  align-items: center; 
+  grid-row-start: 13;
+  grid-row-end: 14;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 100px;
+  margin-bottom: -30px;
+}
+
+.larger{
+  color: hsl(51, 93%, 65%);
+  font-size: 25px;
+  line-height: 1.3em;
+  margin-left: 40px;
+}
+
+.toppings{
+  color: white;
+  font-size: 23px;
+  line-height: 1.3em;
+  margin-left: 40px;
+}
+
+.amount{
+  color: white;
+  margin-right: 40px;
+  text-align: right;
+  font-size: 25px;
+  line-height: 1.3em;
+}
